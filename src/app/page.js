@@ -11,7 +11,12 @@ export default function Home() {
   const apple = () => {
     setName("RAJIV");
   };
+
   const router = useRouter();
+  const navigate = (name) => {
+    router.push(name);
+  };
+
   return (
     <main>
       <h1>Home Page {name}</h1>
@@ -26,10 +31,10 @@ export default function Home() {
       <br />
       <br />
       <br />
-      <button onClick={() => router.push("/login")}>Login Button</button>
+      <button onClick={() => navigate("/login")}>Login Button</button>
       <br />
       <br />
-      <button onClick={() => router.push("/about")}>About Button</button>
+      <button onClick={() => navigate("/about")}>About Button</button>
     </main>
   );
 }
