@@ -13,6 +13,18 @@ const Login = () => {
       <Link href="/">Home</Link>
       <br />
       <button onClick={() => router.push("/")}>Home</button>
+      <br />
+      <br />
+      <br />
+      <button onClick={() => router.push("about/aboutTeacher")}>
+        About Teacher
+      </button>
+      <br />
+      <br />
+      <br />
+      <button onClick={() => router.push("about/aboutStudent")}>
+        About Student
+      </button>
     </div>
   );
 };
