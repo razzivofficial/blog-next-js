@@ -1,8 +1,7 @@
 "use client";
 import Link from "next/link";
-// import { useRouter } from "next/router"; ye use nahi karna hai
 import { useRouter } from "next/navigation";
-import Home from "../page";
+// import { useRouter } from "next/router"; ye use nahi karna hai
 
 const Login = () => {
   const router = useRouter();
@@ -19,8 +18,6 @@ const Login = () => {
       <button onClick={() => router.push("about/aboutTeacher")}>
         About Teacher
       </button>
-      <br />
-      <br />
       <br />
       <button onClick={() => router.push("about/aboutStudent")}>
         About Student
