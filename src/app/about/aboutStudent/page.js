@@ -7,7 +7,7 @@ const AboutStudent = () => {
   const router = useRouter();
   return (
     <div className="container">
-      <h1>About Student</h1>
+      <h1 className="heading">About Student</h1>
       <br />
       <Link href="/">Home</Link>
       <br />

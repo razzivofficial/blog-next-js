@@ -1,0 +1,16 @@
+.about-menu {
+  display: flex;
+}
+.about-menu li {
+  margin-left: 25px;
+  list-style-type: none;
+}
+.about-menu li a,
+h4 {
+  text-decoration: none;
+}
+.heading {
+  color: brown;
+  text-align: center;
+  margin-top: 50px;
+}
