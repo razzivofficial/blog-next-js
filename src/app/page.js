@@ -19,7 +19,7 @@ export default function Home() {
 
   return (
     <main>
-      <h1>Home Page {name}</h1>
+      <h1>Dynamic Routing by {name}</h1>
       {/* <div>
         <button onClick={() => apple()}>CLICK ME</button>
       </div> */}
