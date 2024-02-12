@@ -13,9 +13,7 @@ export default function StudentList() {
         <li>Tushar</li>
         <li>Aniket</li>
         <li>Animesh</li>
-        <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">
-          Responsive
-        </button>
+
       </ul>
     </div>
   );
